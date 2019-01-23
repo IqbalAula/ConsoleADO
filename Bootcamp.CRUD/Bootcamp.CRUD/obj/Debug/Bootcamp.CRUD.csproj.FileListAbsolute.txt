@@ -1,0 +1,13 @@
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\Bootcamp.CRUD.exe.config
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\Bootcamp.CRUD.exe
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\Bootcamp.CRUD.pdb
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.dll
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.SqlServer.dll
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.xml
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\bin\Debug\EntityFramework.SqlServer.xml
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addingModelFirst.resources
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.csproj.GenerateResource.Cache
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.exe
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.pdb
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.csprojResolveAssemblyReference.cache
+D:\Bootcamp22\OOP\Bootcamp.CRUD\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddingStatusDelete.resources
