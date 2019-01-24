@@ -17,5 +17,6 @@ namespace Bootcamp.CRUD.Core
         public DateTimeOffset DeleteDate { get; set; }
 
         public bool isDelete { get; set; }
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Bootcamp.CRUD.Context.Model;
+using Bootcamp.CRUD.Model;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -13,6 +14,8 @@ namespace Bootcamp.CRUD.Context
         public MyContext() : base("bootcamp22") { }
 
         public DbSet<Supplier> Suppliers { get; set; }
+
+        public DbSet<Item> Items { get; set; }
     }
 }
 

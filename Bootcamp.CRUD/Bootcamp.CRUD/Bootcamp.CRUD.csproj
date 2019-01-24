@@ -52,6 +52,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\ItemController.cs" />
+    <Compile Include="Controller\SupplierController.cs" />
     <Compile Include="Core\BaseModel.cs" />
     <Compile Include="Migrations\201901230746249_addingModelFirst.cs" />
     <Compile Include="Migrations\201901230746249_addingModelFirst.Designer.cs">
@@ -61,6 +63,19 @@
     <Compile Include="Migrations\201901231005156_AddingStatusDelete.Designer.cs">
       <DependentUpon>201901231005156_AddingStatusDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901231537329_AddingItemModel.cs" />
+    <Compile Include="Migrations\201901231537329_AddingItemModel.Designer.cs">
+      <DependentUpon>201901231537329_AddingItemModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901240222435_AddVirtualIdSupplierAndUpdateItem.cs" />
+    <Compile Include="Migrations\201901240222435_AddVirtualIdSupplierAndUpdateItem.Designer.cs">
+      <DependentUpon>201901240222435_AddVirtualIdSupplierAndUpdateItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901240339552_Checkingeroor.cs" />
+    <Compile Include="Migrations\201901240339552_Checkingeroor.Designer.cs">
+      <DependentUpon>201901240339552_Checkingeroor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Supplier.cs" />
     <Compile Include="Context\MyContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -77,6 +92,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901231005156_AddingStatusDelete.resx">
       <DependentUpon>201901231005156_AddingStatusDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901231537329_AddingItemModel.resx">
+      <DependentUpon>201901231537329_AddingItemModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240222435_AddVirtualIdSupplierAndUpdateItem.resx">
+      <DependentUpon>201901240222435_AddVirtualIdSupplierAndUpdateItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240339552_Checkingeroor.resx">
+      <DependentUpon>201901240339552_Checkingeroor.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
