@@ -16,11 +16,13 @@ namespace Bootcamp.CRUD
         {            
             SupplierController supplier = new SupplierController();
             ItemController item = new ItemController();
+            TransactionItemController transactionitem = new TransactionItemController();
             Console.WriteLine("============== Manage Data ==============");
             Console.WriteLine("1. Data Supplier");
             Console.WriteLine("2. Data Item");
+            Console.WriteLine("3. Transaction");
             Console.WriteLine("===========================================");
-            Console.Write("Pilihanmu : ");
+            Console.Write(" Pilihanmu : ");
             int pil = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("===========================================");
             switch (pil)
@@ -31,9 +33,11 @@ namespace Bootcamp.CRUD
                 case 2:
                     item.ManageItem();
                     break;
-
+                case 3:
+                    transactionitem.ManageTransactionItem();
+                    break;
                 default:
-                    Console.WriteLine("Something wrong, please try again next time");
+                    Console.WriteLine(" Something wrong, please try again next time");
                     break;
 
             }

@@ -41,3 +41,5 @@ D:\Console ADO\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddingItemModel.
 D:\Console ADO\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.csproj.GenerateResource.Cache
 D:\Console ADO\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddVirtualIdSupplierAndUpdateItem.resources
 D:\Console ADO\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.Checkingeroor.resources
+D:\Console ADO\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddTransactionModel.resources
+D:\Console ADO\Bootcamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddTransactionItemModel.resources

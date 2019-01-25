@@ -54,6 +54,8 @@
   <ItemGroup>
     <Compile Include="Controller\ItemController.cs" />
     <Compile Include="Controller\SupplierController.cs" />
+    <Compile Include="Controller\TransactionController.cs" />
+    <Compile Include="Controller\TransactionItemController.cs" />
     <Compile Include="Core\BaseModel.cs" />
     <Compile Include="Migrations\201901230746249_addingModelFirst.cs" />
     <Compile Include="Migrations\201901230746249_addingModelFirst.Designer.cs">
@@ -75,10 +77,20 @@
     <Compile Include="Migrations\201901240339552_Checkingeroor.Designer.cs">
       <DependentUpon>201901240339552_Checkingeroor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901240421261_AddTransactionModel.cs" />
+    <Compile Include="Migrations\201901240421261_AddTransactionModel.Designer.cs">
+      <DependentUpon>201901240421261_AddTransactionModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901240430185_AddTransactionItemModel.cs" />
+    <Compile Include="Migrations\201901240430185_AddTransactionItemModel.Designer.cs">
+      <DependentUpon>201901240430185_AddTransactionItemModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Supplier.cs" />
     <Compile Include="Context\MyContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="Model\TransactionItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -101,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901240339552_Checkingeroor.resx">
       <DependentUpon>201901240339552_Checkingeroor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240421261_AddTransactionModel.resx">
+      <DependentUpon>201901240421261_AddTransactionModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240430185_AddTransactionItemModel.resx">
+      <DependentUpon>201901240430185_AddTransactionItemModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

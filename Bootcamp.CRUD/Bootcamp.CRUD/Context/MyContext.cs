@@ -16,6 +16,11 @@ namespace Bootcamp.CRUD.Context
         public DbSet<Supplier> Suppliers { get; set; }
 
         public DbSet<Item> Items { get; set; }
+
+        public DbSet<Transaction> Transactions { get; set; }
+
+        public DbSet<TransactionItem> TransactionItems { get; set; }
+
     }
 }
 
